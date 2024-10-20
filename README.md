@@ -39,7 +39,7 @@ while True:
  print(s.recv(1024).decode())
  s.send("acknowledgement recived from the server".encode())
 ```
-## OUPUT
+## OUTPUT
 # client:
 ![Screenshot 2024-10-20 143054](https://github.com/user-attachments/assets/f15e7b61-a253-48bd-ba5b-6907429e9767)
 # server:
